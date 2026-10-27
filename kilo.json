@@ -1,0 +1,19 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "permission": {
+    "read": {
+      ".env.example": "allow",
+      "**/.env.example": "allow",
+      ".env": "deny",
+      ".env.*": "deny",
+      "**/.env": "deny",
+      "**/.env.*": "deny",
+      "*.env": "deny",
+      "**/*.env": "deny",
+      "**/*.p12": "deny",
+      "**/*.key": "deny",
+      "**/*.pem": "deny",
+      "**/*.mobileprovision": "deny"
+    }
+  }
+}
