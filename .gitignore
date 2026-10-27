@@ -20,3 +20,5 @@ __pycache__/
 *.log
 *.db
 *.sqlite
+.kilo
+kilo.json
